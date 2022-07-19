@@ -4,9 +4,9 @@ spring:
   application:
     name: bookstore
   datasource:
-    url: jdbc:mysql://localhost:3306/bookstore
-    username: root
-    password: root
+    url: jdbc:mysql://swagger.c3iqpeargbmp.ap-south-1.rds.amazonaws.com:3306/library
+    username: admin
+    password: mysqlswag
   jpa:
     hibernate:
       ddl-auto: update
